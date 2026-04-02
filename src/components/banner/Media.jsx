@@ -17,7 +17,7 @@ const Media = () => {
             <FaLinkedinIn />
           </a>
           {/* Added the CV link */}
-          <a href="https://drive.google.com/file/d/1-amnrXAlAznN0xgiXvPTM_s8x9Chgklo/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="bannerIcon">
+          <a href="https://drive.google.com/file/d/1vLO_2EjdfWPZ2P-iDdhVYQEle3rfPkWl/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="bannerIcon">
             <FaFilePdf /> {/* CV icon */}
           </a>
         </div>
