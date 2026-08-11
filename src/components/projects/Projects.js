@@ -1,13 +1,13 @@
-
-
 import Title from "../layouts/Title";
 import {
   projectOne,
+  booker,
   projectTwo,
   projectThree,
   tube,
   imperial,
   fleetz,
+  workspace,
 } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 
@@ -30,8 +30,22 @@ const Projects = () => {
           src={projectOne}
           githubLink="https://github.com/STEPHENSAPPOR/ESG-PLATFORM"
           Url="https://my-esg-hub.netlify.app/"
-          
         />
+        <ProjectsCard
+          title="Booking System"
+          des="A real-time site visit booking system for Sanbra City where users book shared sessions, get instant confirmations, and admins manage capacity live. Built with React, Tailwind, and Supabase.!"
+          src={booker}
+          githubLink="https://github.com/STEPHENSAPPOR/Sanbra-City-Booker"
+          Url="https://sanbra-city-booker.netlify.app/"
+        />
+        <ProjectsCard
+          title="AI Engineering Workspace"
+          des="Built an AI-powered developer workspace featuring tools for explaining code, reviewing code, generating tests, and debugging. Built with React, TypeScript, Vite, and Puter.js.!"
+          src={workspace}
+          githubLink="https://github.com/STEPHENSAPPOR/ai-engineering-workspace"
+          Url="https://ai-engineering-workspaces.netlify.app/"
+        />
+        
         <ProjectsCard
           title="Heaven Waves Real Estate"
           des="Created a responsive, modern website for HeavenWaves Real Estate & Construction using React and Tailwind CSS, featuring property listings, search filters, booking forms, and interactive user interfaces.!"
@@ -40,9 +54,9 @@ const Projects = () => {
           Url="https://heaven-waves-real-estate.netlify.app/"
         />
 
-         <ProjectsCard
+        <ProjectsCard
           title="Shopping List App"
-          des="Built a responsive shopping list application that allows users to browse products, view details, add or remove items from a cart, and see the total price dynamically. Includes search functionality, product details view, and adaptive design.!"
+          des="Built a responsive shopping list application that allows users to browse products, view details, add or remove items from a cart, and see the total price dynamically. Includes search functionality, product details view.!"
           src={imperial}
           githubLink="https://github.com/STEPHENSAPPOR/shopping-list-app"
           Url="https://shopping-product-list.netlify.app/"
@@ -64,17 +78,13 @@ const Projects = () => {
           githubLink="https://github.com/STEPHENSAPPOR/ghana-hazard-reporter"
           Url="https://azushop-ecommerce-app.netlify.app/"
         />
-         <ProjectsCard
+        <ProjectsCard
           title="Smart Hearing Device"
           des="Developed an innovative solution to improve accessibility for individuals with hearing impairments. The project focuses on creating affordable, locally-made hearing aids that enhance communication.!"
           src={fleetz}
           githubLink="https://github.com/STEPHENSAPPOR/Hearing-Aid-App"
           Url="https://faila-smart-device.netlify.app/"
         />
-        
-        
-       
-       
       </div>
     </section>
   );

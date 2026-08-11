@@ -1,5 +1,6 @@
 import React from 'react';
-import { FaTwitter, FaLinkedinIn, FaReact, FaFilePdf } from "react-icons/fa"; // Imported FaFilePdf for the CV icon
+import { FaLinkedinIn, FaReact, FaFilePdf } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6"; 
 import { SiTailwindcss, SiFigma } from "react-icons/si";
 
 const Media = () => {
@@ -11,13 +12,13 @@ const Media = () => {
         </h2>
         <div className="flex gap-4">
           <a href="https://x.com/De_audacity" target="_blank" rel="noopener noreferrer" className="bannerIcon">
-            <FaTwitter />
+            <FaXTwitter />
           </a>
           <a href="https://www.linkedin.com/in/stephensappor/" target="_blank" rel="noopener noreferrer" className="bannerIcon">
             <FaLinkedinIn />
           </a>
           {/* Added the CV link */}
-          <a href="https://drive.google.com/file/d/1vLO_2EjdfWPZ2P-iDdhVYQEle3rfPkWl/view?usp=drive_link" target="_blank" rel="noopener noreferrer" className="bannerIcon">
+          <a href="https://drive.google.com/file/d/1n5QaOccbjejIdRF6CXSMB0oHj_-yzcyu/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="bannerIcon">
             <FaFilePdf /> {/* CV icon */}
           </a>
         </div>

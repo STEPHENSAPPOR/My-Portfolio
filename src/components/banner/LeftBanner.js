@@ -5,7 +5,7 @@ import Media from "./Media";
 const LeftBanner = () => {
   const [text] = useTypewriter({
     words: [
-      "Frontend Web Developer.",
+      "Frontend Developer.",
       "AWS Cloud Practitioner.",
       "Graphic Designer.",
     ],
@@ -31,9 +31,9 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          I am a Frontend Web Developer, coupled with AWS Certified Cloud
+          I am a Frontend Developer, coupled with AWS Certified Cloud
           Practitioner. I am dedicated to creating intuitive and dynamic user
-          interfaces using HTML, CSS, JavaScript, and learning modern frameworks
+          interfaces using HTML, CSS, JavaScript, and leveraging modern frameworks
           such as React. I am proactive, results-oriented, and excel
           at prioritizing workloads to ensure end-to-end execution.
         </p>

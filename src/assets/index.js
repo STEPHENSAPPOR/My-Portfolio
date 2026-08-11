@@ -10,6 +10,8 @@ import contactImg from "./images/contact/contactImg.png";
 import imperial from "./images/projects/imperial.jpg";
 import fleetz from "./images/projects/fleetz.jpg";
 import tube from "./images/projects/tube.jpg";
+import booker from "./images/projects/booker.jpg";
+import workspace from "./images/projects/workspace.jpg";
 
 export {
   logo,
@@ -18,6 +20,8 @@ export {
   projectTwo,
   projectThree,
   tube,
+  booker,
+  workspace,
   imperial,
   fleetz,
   testimonialOne,
